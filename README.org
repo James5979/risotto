@@ -1,0 +1,39 @@
+* risotto
+
+risotto is a minimalist, responsive [[https://gohugo.io][hugo]] theme inspired by terminal ricing aesthetics.
+
+#+CAPTION: Screenshot of the risotto theme using the solarized palette
+[[https://raw.githubusercontent.com/James5979/risotto/main/images/screenshot.png]]
+
+** Install
+
+Clone the theme to =themes/risotto=:
+
+#+begin_src shell
+git clone https://github.com/James5979/risotto themes/risotto
+#+end_src
+
+Or, add the theme as a submodule:
+
+#+begin_src shell
+git submodule add https://github.com/James5979/risotto.git themes/risotto
+#+end_src
+
+** Update
+
+Pull the repository to get the latest updates:
+
+#+begin_src shell
+cd themes/risotto
+git pull
+#+end_src
+
+Or, update the theme as a submodule:
+
+#+begin_src shell
+git submodule update --remote
+#+end_src
+
+** Configure
+
+See =exampleSite/config.toml= for all theme-specific parameters to add to =config.toml=.
